@@ -19,7 +19,7 @@ body {
   font-family: 'Electrolize', sans-serif;
   color: #a2a2a2;
 }
-hr {
+.blockline {
   height: 6px;
   background: url(http://ibrahimjabbari.com/english/images/hr-11.png)
   repeat-x 0 0;
@@ -95,4 +95,54 @@ ul {
 .notebook {
 background-image: url("img/list-bg.png");
 height: 305px;
+}
+.footerPic {
+  width: 15%;
+  float: left;
+  padding-right: 3%;
+}
+.footerText {
+  width: 57%;
+  float: left;
+}
+.share {
+  width: 25%;
+  float: left;
+}
+.footerText h2 {
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 20px;
+  color: #656565;
+  padding-bottom: 4%;
+}
+.footerText p {
+  font-family: georgia;
+  font-size: 14px;
+  color: #656565;
+}
+.button {
+   background-color: #b87255 ;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
+.linebreak {
+  width: 45%;
+  display: inline-block;
+}
+.bottomline {
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  font-family: georgia;
+  color: #a2a2a2;
+  padding: 15px;
+  font-size: 12px;
+  line-height: 150%;
 }
