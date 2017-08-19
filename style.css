@@ -35,7 +35,11 @@ hr {
 
 ul {
   list-style: square;
-  float:left;
+  font-family: 'Handlee', cursive;
+  color: #a2a2a2;
+  font-size: 17px;
+  padding-top: 10%;
+  line-height: 177%;
 }
 
 #title {
@@ -83,10 +87,10 @@ ul {
   width: 100%;
 }
 
-/*ul {
-  width: 50%;
-  display: inline-block;
-}*/
+.list1 {
+  width:50%;
+  float: left;
+}
 
 .notebook {
 background-image: url("img/list-bg.png");
